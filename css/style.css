@@ -1,0 +1,137 @@
+#main-wrapper
+{
+	width: 500px;
+	margin: 0 auto;
+	background:white;
+	padding:5px;
+	border-radius: 10px;
+	border:2px solid #2c3e50;
+}
+.avatar
+{
+	width:150px;
+	text-align: centre;
+	border-radius: 50%;
+}
+.myform
+{
+	width: 450px;
+	margin:0 auto ;
+}
+.inputvalues
+{
+	width: 430px;
+	margin:0 auto;
+	padding: 5px;
+}
+#login_btn
+{
+	margin-top: 10px;
+	background-color: #27ae60;
+	padding: 5px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#register_btn
+{
+	margin-top: 10px;
+	background-color: #3498db;
+	padding: 5px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#signup_btn
+{
+	margin-top: 10px;
+	background-color: #3498db;
+	padding: 5px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#back_btn
+{
+	margin-top: 10px;
+	background-color: #c74c3c;
+	padding: 5px;
+	color: white;
+	width: 30%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#logout_btn
+{
+	margin-top: 10px;
+	background-color: #c74c3c;
+	padding: 5px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#post_btn
+{
+	margin-top: 10px;
+	background-color: #3498db;
+	padding: 5px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+/*.container
+{
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+}*/
+.sidenav
+{
+	 height: 100%;
+	 width: 160px;
+	 position: fixed;
+	 z-index: 1;
+	 top: 10;
+	 left: 0;
+	 background-color: #111; 
+     overflow-x: hidden; 
+ 	 padding-top: 20px;
+
+}
+.sidenav a {
+  padding: 20px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.textbox
+{
+	margin-top: 10px;
+ padding: 20px;
+ height: 600px;
+ width: 200%;
+}
