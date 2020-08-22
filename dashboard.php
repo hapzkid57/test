@@ -32,18 +32,5 @@
     </div>
 </body>
 </html>
-    <div id="main-wrapper">
-        <center><h2>Home Form</h2>
-                <h3>Welcome 
-                <?php 
-                    echo $_SESSION['username'];
-                 ?>
-                 </h3>
-            <img src="img/avatar.jpg" class="avatar">
-        </center>
-       <!--  <form class="myform" action="register.php" method="POST">
-           <input name="edit"type="submit" id="edit_btn" value="Edit"><br>
-        </form> -->
-    </div>
-</body>
-</html>
+
+"This is change in data"
